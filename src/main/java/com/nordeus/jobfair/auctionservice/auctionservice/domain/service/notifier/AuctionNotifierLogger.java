@@ -1,4 +1,4 @@
-package com.nordeus.jobfair.auctionservice.auctionservice.domain.service;
+package com.nordeus.jobfair.auctionservice.auctionservice.domain.service.notifier;
 
 import com.nordeus.jobfair.auctionservice.auctionservice.domain.model.Auction;
 import com.nordeus.jobfair.auctionservice.auctionservice.domain.model.Bid;
@@ -9,7 +9,7 @@ import java.util.Collection;
 
 @Slf4j
 @Service
-public class AuctionNotifierLogger implements AuctionNotifer {
+public class AuctionNotifierLogger implements AuctionNotifier {
 
     @Override
     public void auctionFinished(Auction auction) {
